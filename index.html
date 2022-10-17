@@ -32,6 +32,8 @@
 </head>
 
 <body>
+        <div class="preloader" id="preloader"></div>
+
     <main>
         <header>
             <nav class="navbar navbar-expand-md">
@@ -382,6 +384,12 @@
             </div>
         </footer>
     </main>
+        <script>
+        var loader =document.getElementById("preloader")
+        window.addEventListener("load",function(){
+            loader.style.display="none";
+        })
+    </script>
 </body>
 <script>
     const quotes = [{
@@ -442,7 +450,8 @@
         {
             title: "I alone cannot change the world, but I can cast a stone across the waters to create many ripples.",
             author: "Mother Teresa"
-        },
+        }
+      
 
     ]
     window.addEventListener('DOMContentLoaded', (event) => {
