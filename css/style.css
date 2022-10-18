@@ -191,6 +191,7 @@ body {
 .device-wrapper {
   max-width: 300px;
   width: 100%;
+  margin: 0 auto;
 }
 .device {
   position: relative;
