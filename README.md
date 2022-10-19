@@ -39,36 +39,40 @@ if you want to work on an existing issue that has not been assigned then,
  3. Click on that issue and in the comments ask the maintainer to assign you that particular issue.
  4. Lastly click on comment and wait for the issue to be assigned by the maintainer.
  
- 
- Once the issue is assigned
-* Fork this repo in your local machine .
-* Clone repo locally using the command - git clone `https://github.com/CSI-CATT-DMCE/kudamcam.git`
-* After cloning make sure you create a new branch by using git checkout -b my-branch.
-* Add the modified/created files to the staging using git add.
-
 
 ## How to create a Pull Request?
  
  
- 1. After making changes or modification on to your code locally, you need to add these files to the staging area.
+ Once the issue is assigned
+* [Fork](https://github.com/CSI-CATT-DMCE/kudamcam/fork) this repo in your local machine .
+* Clone repo locally using the command
+```bash
+  git clone git@github.com:@Your Username/kudamcam.git
+```
+* After cloning make sure you create a new branch by using
+```bash
+ git checkout -b my-branch.
+```
+ 
+ * After making changes or modification on to your code locally, you need to add these files to the staging area.
 ```bash
   git add <file-name>
 ```
- 2. Once files added, you need to commit the changes to with an appropriate commit message.
+ * Once files added, you need to commit the changes to with an appropriate commit message.
 ```bash
   git commit -m "<your-message>"
 ```
- 3. After commiting the changes, you need to push the changes
+ * After commiting the changes, you need to push the changes
 ```bash
    git push origin <branch-name>
 ```
- 4. Once you push the changes to your repository, the Compare & pull request button will appear in GitHub.
+ * Once you push the changes to your repository, the Compare & pull request button will appear in GitHub.
 
- 5. Click it and you'll be taken to this screen
+ * Click it and you'll be taken to this screen
 
- 6. Type a proper description and give the PR an appropriate title. Finally, Open a pull request by clicking the Create pull request button.
+ * Type a proper description and give the PR an appropriate title. Finally, Open a pull request by clicking the Create pull request button.
 
- 7. That's it. You have opened a PR. Wait for it to get merged.
+ * That's it. You have opened a PR. Wait for it to get merged.
 
 ## Specifically for Hacktoberfest:
 
