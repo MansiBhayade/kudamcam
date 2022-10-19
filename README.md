@@ -13,8 +13,7 @@ Maintainer
 ## KickStart to Open Source Event 
 
 ## What is Hacktoberfest?
-A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request and contribute to the open source developer community.
-
+A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source).
 
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lGJu31oG--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ymlmr15l83rrjq8natft.jpg" width="700">
@@ -23,9 +22,29 @@ A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](ht
 
 ## How to create an issue?
 
-If you find a new issue or any bug in the code itself, then click on [new issue](https://github.com/CSI-CATT-DMCE/kudamcam/issues/new/choose) and add title and discription of issue that you want to raise and request feedback from the maintainer.
+### New Issue
 
-Or if you find an existing issue in the [issue](https://github.com/CSI-CATT-DMCE/kudamcam/issues) section in the repository that has not been assigned previously, then ask the maintainer to assign that issue so that you can start working on it.
+if you find any new issue or any bug in the code itself then,
+1. Click on  [new issue](https://github.com/CSI-CATT-DMCE/kudamcam/issues/new/choose) present on the top right side of the [issue](https://github.com/CSI-CATT-DMCE/kudamcam/issues) tab of this repository.
+2. Add title and discription of issue that you want to raise and ask the maintainer to assign the issue.
+3. Click on Submit New Issue option.
+Now you have raised a new issue, wait for the maintainer to assign it and you are good to go.
+
+### Existing Issue
+
+if you want to work on an existing issue that has not been assigned then,
+
+ 1. Go in the  [issue](https://github.com/CSI-CATT-DMCE/kudamcam/issues) tab of this repository.
+ 2. Choose the issue that you want to work on.
+ 3. Click on that issue and in the comments ask the maintainer to assign you that particular issue.
+ 4. Lastly click on comment and wait for the issue to be assigned by the maintainer.
+ 
+ 
+ Once the issue is assigned
+* Fork this repo in your local machine .
+* Clone repo locally using the command - git clone `https://github.com/CSI-CATT-DMCE/kudamcam.git`
+* After cloning make sure you create a new branch by using git checkout -b my-branch.
+* Add the modified/created files to the staging using git add.
 
 
 ## How to create a Pull Request?
