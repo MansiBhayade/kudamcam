@@ -1,36 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Fredoka", sans-serif !important;
 }
+
 .navbar.navbar-expand-md {
   background: #175fb4;
 }
+
 .collapse.navbar-collapse,
-.navbar.navbar-expand-md > .container {
+.navbar.navbar-expand-md>.container {
   z-index: 11;
 }
+
 .navbar-brand,
 .nav-link {
   color: #eeeeee;
 }
+
 .fa-solid.fa-bars {
   filter: invert(100%);
 }
+
 .navbar-toggler:focus {
   border: none !important;
   outline: none !important;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active,
 .navbar-brand:hover {
   color: #adda14;
 }
+
 .nav.navbar-nav.mb-2.mb-lg-0 {
   margin-left: auto;
 }
@@ -41,12 +50,14 @@ body {
   top: 0;
   bottom: 0;
 }
-.image-overlay-container > .img-fluid {
+
+.image-overlay-container>.img-fluid {
   background-image: url("https://images.unsplash.com/photo-1510251197878-a2e6d2cb590c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-size: cover;
   background-position: center;
   height: calc(100vh - 70px);
 }
+
 .text {
   letter-spacing: 1.5px;
   color: white;
@@ -60,6 +71,7 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -83,14 +95,17 @@ body {
 .col-lg-3.col-md-6.col-sm-6.text-center img {
   width: 150px;
 }
+
 .col-lg-3.col-md-6.col-sm-6.text-center p.fs-3.mt-1 {
   margin-bottom: 0;
 }
+
 @media (max-width: 900px) {
   .col-lg-3.col-md-6.col-sm-6.text-center {
     margin-top: 1rem;
   }
 }
+
 @media (max-width: 500px) {
   .col-lg-3.col-md-6.col-sm-6.text-center img {
     width: 125px;
@@ -103,43 +118,53 @@ body {
 #mockup {
   padding: 130px 0;
 }
+
 #faq,
 #team {
   padding: 65px 0;
 }
+
 .wrapper {
   max-width: 1000px;
   margin: 50px auto;
   padding: 40px 20px;
 }
+
 .wrapper .accordion-button {
   font-size: 0.9rem;
   font-weight: 500;
 }
+
 .wrapper .accordion-button:focus {
   box-shadow: none;
 }
+
 .wrapper .accordion-button:not(.collapsed) {
   color: #000;
   background-color: #f7f7f7;
 }
+
 .wrapper .accordion-button.collapsed:last-child {
   border-bottom: solid 1px black;
 }
+
 .wrapper .accordion-collapse div p {
   line-height: 2rem;
   width: 100%;
   padding: 0.5rem 1.3rem;
 }
+
 @media (max-width: 777px) {
   .wrapper {
     margin: 50px 20px;
   }
 }
+
 @media (max-width: 365px) {
   .wrapper {
     margin: 50px 10px;
   }
+
   .w-75 {
     width: 90% !important;
   }
@@ -151,21 +176,25 @@ body {
   max-width: 1000px;
   margin: auto;
 }
+
 .steps .row {
   overflow: hidden;
 }
+
 .steps .content-item {
   padding: 40px;
   border-left: 1px solid #eee;
   border-bottom: 1px solid #eee;
   margin: -1px;
 }
+
 .steps .content-item span {
   display: block;
   font-size: 24px;
   font-weight: 400;
   color: #3b4ef8;
 }
+
 .steps .content-item h4 {
   font-size: 28px;
   font-weight: 400;
@@ -173,6 +202,7 @@ body {
   margin: 20px 0;
   color: #2d405f;
 }
+
 .steps .content-item p {
   color: #aaaaaa;
   font-size: 15px;
@@ -184,15 +214,18 @@ body {
 #mockup {
   width: 100%;
 }
+
 .container.px-5 {
   max-width: 1000px;
   margin: auto;
 }
+
 .device-wrapper {
   max-width: 300px;
   width: 100%;
   margin: 0 auto;
 }
+
 .device {
   position: relative;
   background-size: cover;
@@ -232,6 +265,7 @@ body {
   content: "";
   background-image: url("../images/portrait_black.png");
 }
+
 .device.device-mockup .button {
   display: none;
   top: 0%;
@@ -239,6 +273,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .mockup-img {
   max-width: 100%;
   height: 100%;
@@ -256,55 +291,68 @@ body {
   padding: 60px 0;
   overflow: hidden;
 }
+
 #team .member {
   text-align: center;
   margin-bottom: 20px;
 }
+
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
   height: auto;
 }
+
 #team .member .pic #jaydip-profile-img {
   border: solid 2px lightgray;
 }
+
 #team .member .pic img {
   max-width: 100%;
 }
+
 #team .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
 }
+
 #team .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
+
 #team .member .social {
   margin-top: 15px;
 }
+
 #team .member .social a {
   color: #b3b3b3;
 }
+
 #team .member .social a:hover {
   color: #1dc8cd;
 }
+
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
+
 @media (max-width: 575px) {
   #team .member .pic img {
     width: 250px;
   }
 }
+
 @media (max-width: 400px) {
   #team .member .pic {
     margin-bottom: 15px;
     overflow: hidden;
     height: auto;
   }
+
   #team .member .pic img {
     width: 200px;
   }
@@ -319,20 +367,69 @@ body {
 #map {
   height: 50vh;
 }
+
 #data {
   max-width: 500px;
 }
+
 @media (min-width: 990px) {
   #map {
     height: calc(100vh - 70px);
   }
 }
+
 .preloader {
-  background: #fff url(../images/Bounce-Bar-Preloader-1.gif) no-repeat center
-    center;
+  background: #fff url(../images/Bounce-Bar-Preloader-1.gif) no-repeat center center;
   background-size: 50%;
   height: 100vh;
   width: 100%;
   position: fixed;
   z-index: 100;
 }
+
+/* Join us Page */
+.join-box {
+  background-color: #F5F5FF;
+  margin: 0 auto;
+  margin-top: 2rem;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.join-box label {
+  color: #9e73c1;
+}
+
+.join-box input,
+.join-box textarea {
+  border: 2px solid #9e73c147;
+  outline: none;
+  padding: 0.3rem;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.join-box input:focus,
+.join-box textarea:focus {
+  border: 2px solid #9e73c1;
+}
+
+.join-box .row .col-md-6,
+.join-box .row .col-md-12 {
+  margin: 0.7rem 0;
+}
+
+.join-box button {
+  background-color: #9e73c1;
+  border: none;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Join us Page */
