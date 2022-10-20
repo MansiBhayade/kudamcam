@@ -433,3 +433,55 @@ body {
 }
 
 /* Join us Page */
+
+/* Leaderboard */
+.leader-box {
+  border: 2px solid rgb(210, 210, 210);
+  border-radius: 5px;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.leader-box .heading-con {
+  background-color: #165FB4;
+  color: #fff;
+  padding: 0.5rem !important;
+}
+
+.display-div {
+  overflow-x: auto;
+
+}
+
+.leader-box .display {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(230, 238, 255);
+  border-radius: 5px;
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+}
+
+.leader-box .rank {
+  margin: 0 1rem;
+}
+
+.leader-box .name p {
+  word-spacing: 8px;
+}
+
+.leader-box .avatar {
+  background-color: rgb(212, 212, 212);
+  width: 35px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+/* Leaderboard */

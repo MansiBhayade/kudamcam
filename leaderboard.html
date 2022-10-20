@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>KudaCam | Join Us</title>
+    <title>KudaCam | Leaderboard</title>
 
     <!-- favicon -->
     <link
@@ -57,7 +57,7 @@
   <body>
     <div class="preloader" id="preloader"></div>
 
-    <main class="join-us">
+    <main class="leaderboard">
       <header>
         <nav class="navbar navbar-expand-md">
           <div class="container">
@@ -122,45 +122,75 @@
       </header>
 
       <section class="p-3">
-        <form action="#">
-          <div class="container join-box p-4 px-md-5">
-            <h1 class="text-center">Join Us</h1>
-            <div class="row my-2">
-              <div class="col-md-6">
-                <label for="First Name">First Name</label>
-                <input type="text" class="w-100 mt-2" required />
+        <div class="container leader-box p-0 my-3">
+          <div class="p-3 heading-con">
+            <h4 class="text-center m-0">Top Users</h4>
+          </div>
+          <div class="p-2 display-div">
+            <div class="display">
+              <div class="rank me-5">#1</div>
+              <div class="avatar">
+                <i class="fa-solid fa-user"></i>
               </div>
-              <div class="col-md-6">
-                <label for="Last Name">Last Name</label>
-                <input type="text" class="w-100 mt-2" required />
-              </div>
-              <div class="col-md-6">
-                <label for="Pincode">Pincode</label>
-                <input type="number" class="w-100 mt-2" required />
-              </div>
-              <div class="col-md-6"></div>
-              <div class="col-md-6">
-                <label for="email">Email</label>
-                <input type="email" class="w-100 mt-2" required />
-              </div>
-              <div class="col-md-6">
-                <label for="phone">Phone</label>
-                <input type="number" class="w-100 mt-2" required />
-              </div>
-              <div class="col-md-12">
-                <label for="reason">Reason to join this camp</label>
-                <textarea
-                  type="number"
-                  class="w-100 mt-2"
-                  rows="4"
-                  minlength="50"
-                  required
-                ></textarea>
+              <div class="name">
+                <p class="m-0 fw-bolder">First Middle Last</p>
               </div>
             </div>
-            <button>Join KudaCam</button>
+            <div class="display">
+              <div class="rank me-5">#2</div>
+              <div class="avatar">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="name">
+                <p class="m-0 fw-bolder">First Middle Last</p>
+              </div>
+            </div>
+            <div class="display">
+              <div class="rank me-5">#3</div>
+              <div class="avatar">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="name">
+                <p class="m-0 fw-bolder">First Middle Last</p>
+              </div>
+            </div>
           </div>
-        </form>
+        </div>
+
+        <div class="container leader-box p-0 my-3 mt-4">
+          <div class="p-3 heading-con">
+            <h4 class="text-center m-0">Top Cities</h4>
+          </div>
+          <div class="p-2 display-div">
+            <div class="display">
+              <div class="rank me-5">#1</div>
+              <div class="avatar">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="name">
+                <p class="m-0 fw-bolder">City Name Here</p>
+              </div>
+            </div>
+            <div class="display">
+              <div class="rank me-5">#2</div>
+              <div class="avatar">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="name">
+                <p class="m-0 fw-bolder">City Name Here</p>
+              </div>
+            </div>
+            <div class="display">
+              <div class="rank me-5">#3</div>
+              <div class="avatar">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="name">
+                <p class="m-0 fw-bolder">City Name Here</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <footer class="bg-light text-center text-lg-start">
@@ -177,13 +207,4 @@
       });
     </script>
   </body>
-  <script>
-    window.addEventListener("DOMContentLoaded", (event) => {
-      AOS.init();
-      const quote = quotes[Math.floor(Math.random() * quotes.length)];
-      document.querySelector(".lead.font-italic").innerHTML = quote.title;
-      document.querySelector(".blockquote-footer.mb-0").innerHTML =
-        quote.author;
-    });
-  </script>
 </html>
