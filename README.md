@@ -44,31 +44,29 @@ if you want to work on an existing issue that has not been assigned then,
  
  
  Once the issue is assigned
-* [Fork](https://github.com/CSI-CATT-DMCE/kudamcam/fork) this repo in your local machine .
+* [Fork](https://github.com/CSI-CATT-DMCE/kudamcam/fork) the repo.
 * Clone repo locally using the command
 ```bash
-  git clone git@github.com:@Your Username/kudamcam.git
+  git clone git@github.com:@Your-Username/kudamcam.git
 ```
 * After cloning make sure you create a new branch by using
 ```bash
- git checkout -b my-branch.
+ git checkout -b <branch-name>
 ```
  
  * After making changes or modification on to your code locally, you need to add these files to the staging area.
 ```bash
-  git add <file-name>
+  git add .
 ```
  * Once files added, you need to commit the changes to with an appropriate commit message.
 ```bash
-  git commit -m "<your-message>"
+  git commit -m "<commit-message>"
 ```
  * After commiting the changes, you need to push the changes
 ```bash
    git push origin <branch-name>
 ```
  * Once you push the changes to your repository, the Compare & pull request button will appear in GitHub.
-
- * Click it and you'll be taken to this screen
 
  * Type a proper description and give the PR an appropriate title. Finally, Open a pull request by clicking the Create pull request button.
 
