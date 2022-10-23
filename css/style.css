@@ -10,13 +10,23 @@ body {
   font-family: "Fredoka", sans-serif !important;
 }
 
-.navbar.navbar-expand-md {
-  background: #175fb4;
+.navbar.navbar-expand-md a:hover{
+  color:var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
 }
 
 .collapse.navbar-collapse,
 .navbar.navbar-expand-md>.container {
-  z-index: 11;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  background: #5858bb;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .navbar-brand,
