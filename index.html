@@ -36,21 +36,21 @@
 
     <main>
         <header>
-            <nav class="navbar navbar-expand-md">
+            <nav class="navbar navbar-expand-md ">
+                
                 <div class="container">
-                    <a class="navbar-brand fs-2 fw-bold" href="#">KudaCam</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span><i class="fa-solid fa-bars fs-2"></i></span>
-                    </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <a class="navbar-brand fs-2 fw-bold" href="#">KudaCam</a>
+
                         <ul class="nav navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="fs-5 fw-bold nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="fs-5 fw-bold nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a class="fs-5 fw-bold nav-link active" aria-current="page" href="#steps">Steps</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="fs-5 fw-bold nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                <a class="fs-5 fw-bold nav-link dropdown-toggle" href="#data" id="navbarDropdown"
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Data
                                 </a>
@@ -60,10 +60,13 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="fs-5 fw-bold nav-link" href="#">Impact</a>
+                                <a class="fs-5 fw-bold nav-link active" aria-current="page" href="#faq">FAQ</a>
                             </li>
                             <li class="nav-item">
-                                <a class="fs-5 fw-bold nav-link" href="joinus.html">Join Us</a>
+                                <a class="fs-5 fw-bold nav-link" href="#joinus">Join Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="fs-5 fw-bold nav-link" href="#team">Team</a>
                             </li>
 
                         </ul>
@@ -71,7 +74,10 @@
                 </div>
             </nav>
         </header>
-        <section id="banner">
+  
+
+<!-- home section starts  -->
+        <section id="home">
             <div class="image-overlay-container">
                 <div class="img-fluid">
                     <div class="overlay">
@@ -119,67 +125,79 @@
                 </div>
             </div>
         </section>
-        <section id="steps" class="steps">
-            <div class="container">
 
-                <div class="row no-gutters" data-aos="fade-up">
+<!-- home section ends  -->
 
-                    <div class="col-lg-6 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
-                        <span>01</span>
-                        <h4>Connect</h4>
-                        <p class="fs-5">First download our official apk and do register yourself.
-                        </p>
-                    </div>
+<!-- Steps section starts  -->
+<section id="steps" class="steps">
+    <div class="container">
 
-                    <div class="col-lg-6 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
-                        <span>02</span>
-                        <h4>Identify</h4>
-                        <p class="fs-5">Identify an issue and then upload the picture </p>
-                    </div>
+        <div class="row no-gutters" data-aos="fade-up">
 
-                    <div class="col-lg-6 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-                        <span>03</span>
-                        <h4>Feedback</h4>
-                        <p class="fs-5">Validate the work done by the workers and then provide a valid feedback.
-                        </p>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
-                        <span>04</span>
-                        <h4>Claim</h4>
-                        <p class="fs-6">If the request is not resolved due to some issues by worker you can claim unresolved request and can clean it to level up your profile and get featured</p>
-                    </div>
-
-                </div>
-
+            <div class="col-lg-6 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
+                <span>01</span>
+                <h4>Connect</h4>
+                <p class="fs-5">First download our official apk and do register yourself.
+                </p>
             </div>
-        </section>
-        <section id="counts" class="counts">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 text-center" data-aos="zoom-out-down">
-                        <img src="./images/complain.png">
-                        <p class="fs-3 mt-1">65</p>
-                        <p class="fs-5 fw-bold">Total Complaints</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 text-center" data-aos="zoom-out-down">
-                        <img src="./images/person.png">
-                        <p class="fs-3 mt-1">65</p>
-                        <p class="fs-5 fw-bold">Complaints Resolved</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 text-center" data-aos="zoom-out-down">
-                        <img src="./images/people.png">
-                        <p class="fs-3 mt-1">65</p>
-                        <p class="fs-5 fw-bold">Happy Users</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 text-center" data-aos="zoom-out-down">
-                        <img src="./images/event.png">
-                        <p class="fs-3 mt-1">65</p>
-                        <p class="fs-5 fw-bold">Total Events</p>
-                    </div>
-                </div>
+
+            <div class="col-lg-6 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
+                <span>02</span>
+                <h4>Identify</h4>
+                <p class="fs-5">Identify an issue and then upload the picture </p>
             </div>
-        </section>
+
+            <div class="col-lg-6 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
+                <span>03</span>
+                <h4>Feedback</h4>
+                <p class="fs-5">Validate the work done by the workers and then provide a valid feedback.
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
+                <span>04</span>
+                <h4>Claim</h4>
+                <p class="fs-6">If the request is not resolved due to some issues by worker you can claim unresolved request and can clean it to level up your profile and get featured</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- Steps section ends  -->
+
+<!-- Data section starts  -->
+<section id="counts" class="counts">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 text-center" data-aos="zoom-out-down">
+                <img src="./images/complain.png">
+                <p class="fs-3 mt-1">65</p>
+                <p class="fs-5 fw-bold">Total Complaints</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 text-center" data-aos="zoom-out-down">
+                <img src="./images/person.png">
+                <p class="fs-3 mt-1">65</p>
+                <p class="fs-5 fw-bold">Complaints Resolved</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 text-center" data-aos="zoom-out-down">
+                <img src="./images/people.png">
+                <p class="fs-3 mt-1">65</p>
+                <p class="fs-5 fw-bold">Happy Users</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 text-center" data-aos="zoom-out-down">
+                <img src="./images/event.png">
+                <p class="fs-3 mt-1">65</p>
+                <p class="fs-5 fw-bold">Total Events</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Data section ends  -->
+
+<!-- faq section ends  -->
+
         <section id="faq">
             <div class="wrapper bg-white rounded shadow">
                 <div class="h3 text-primary text-center mb-4">Frequently Asked Questions</div>
@@ -188,7 +206,7 @@
                         <h2 class="accordion-header" id="flush-headingOne"> <button
                                 class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                aria-controls="flush-collapseOne">Is partnering with another app worth it</button> </h2>
+                                aria-controls="flush-collapseOne">Why should I partner with KudaCam ?</button> </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse border-0"
                             aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
                             <div class="accordion-body p-0">
@@ -196,7 +214,7 @@
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim quasi laudantium
                                         accusantium? Excepturi minima illo velit porro blanditiis! Quis officiis
                                         laboriosam nostrum voluptatum fugit quisquam eligendi neque excepturi similique
-                                        nulla!</p>
+                                        nulla!. </p>
                                 </div>
                             </div>
                         </div>
@@ -205,7 +223,7 @@
                         <h2 class="accordion-header" id="flush-headingOne"> <button
                                 class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                aria-controls="flush-collapseTwo">How should I develop my app over time?</button> </h2>
+                                aria-controls="flush-collapseTwo">How should I develop my app over time ?</button> </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse border-0"
                             aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
                             <div class="accordion-body p-0">
@@ -239,7 +257,7 @@
                         <h2 class="accordion-header" id="flush-headingOne"> <button
                                 class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                aria-controls="flush-collapseFour">Who should be targeting?</button> </h2>
+                                aria-controls="flush-collapseFour">Who should be targeting ?</button> </h2>
                         <div id="flush-collapseFour" class="accordion-collapse collapse border-0"
                             aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
                             <div class="accordion-body p-0">
@@ -255,7 +273,11 @@
                 </div>
             </div>
         </section>
-        <section id="mockup" class="masthead m-auto">
+
+<!-- faq section ends  -->
+
+<!-- Joinus section starts  -->
+        <section id="joinus" class="masthead m-auto">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
@@ -284,6 +306,10 @@
                 </div>
             </div>
         </section>
+
+<!-- Joinus section ends  -->
+
+<!-- Ourteam section Starts  -->
         <section id="team" class="section-bg">
             <div class="container" data-aos="fade-up">
                 <div class="section-header">
@@ -377,6 +403,8 @@
             </div>
 
         </section>
+
+<!-- team section ends  -->
         <footer class="bg-light text-center text-lg-start">
             <div class="text-center p-3 footer-bg">
                 © 2022 KudaCam:
